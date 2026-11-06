@@ -1,0 +1,41 @@
+{
+  "rootNames": ["C", "Db", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B"],
+  "scales": {
+    "major":            { "name": "自然大调",          "group": "大小调体系", "notes": ["1", "2", "3", "4", "5", "6", "7"] },
+    "naturalMinor":     { "name": "自然小调",          "group": "大小调体系", "notes": ["1", "2", "b3", "4", "5", "b6", "b7"] },
+    "harmonicMajor":    { "name": "和声大调",          "group": "大小调体系", "notes": ["1", "2", "3", "4", "5", "b6", "7"] },
+    "harmonicMinor":    { "name": "和声小调",          "group": "大小调体系", "notes": ["1", "2", "b3", "4", "5", "b6", "7"] },
+    "melodicMajor":     { 
+      "name": "旋律大调", 
+      "group": "大小调体系", 
+      "notes": ["1", "2", "3", "4", "5", "6", "7"],
+      "descNotes": ["1", "2", "3", "4", "5", "b6", "b7"]
+    },
+    "melodicMinor":     { 
+      "name": "旋律小调", 
+      "group": "大小调体系", 
+      "notes": ["1", "2", "b3", "4", "5", "6", "7"],
+      "descNotes": ["1", "2", "b3", "4", "5", "b6", "b7"]
+    },
+
+    "ionian":     { "name": "Ionian",         "group": "中古调式", "notes": ["1", "2", "3", "4", "5", "6", "7"] },
+    "dorian":     { "name": "Dorian",         "group": "中古调式", "notes": ["1", "2", "b3", "4", "5", "6", "b7"] },
+    "phrygian":   { "name": "Phrygian",       "group": "中古调式", "notes": ["1", "b2", "b3", "4", "5", "b6", "b7"] },
+    "lydian":     { "name": "Lydian",         "group": "中古调式", "notes": ["1", "2", "3", "#4", "5", "6", "7"] },
+    "mixolydian": { "name": "Mixolydian",     "group": "中古调式", "notes": ["1", "2", "3", "4", "5", "6", "b7"] },
+    "aeolian":    { "name": "Aeolian",        "group": "中古调式", "notes": ["1", "2", "b3", "4", "5", "b6", "b7"] },
+    "locrian":    { "name": "Locrian",        "group": "中古调式", "notes": ["1", "b2", "b3", "4", "b5", "b6", "b7"] },
+
+    "majorPentatonic": { "name": "大调五声", "group": "五声音阶", "notes": ["1", "2", "3", "5", "6"] },
+    "minorPentatonic": { "name": "小调五声", "group": "五声音阶", "notes": ["1", "b3", "4", "5", "b7"] },
+
+    "miyakoBushi": { "name": "都节音阶", "group": "日本调式", "notes": ["1", "b2", "4", "5", "b6"] },
+
+    "majorBlues": { "name": "布鲁斯大调", "group": "布鲁斯", "notes": ["1", "2", "b3", "3", "5", "6"] },
+    "minorBlues": { "name": "布鲁斯小调", "group": "布鲁斯", "notes": ["1", "b3", "4", "b5", "5", "b7"] },
+
+    "wholeTone":    { "name": "全音音阶",   "group": "对称音阶", "notes": ["1", "2", "3", "#4", "#5", "#6"] },
+    "halfWholeDim": { "name": "半全减音阶", "group": "对称音阶", "notes": ["1", "b2", "b3", "3", "#4", "5", "6", "b7"] },
+    "wholeHalfDim": { "name": "全半减音阶", "group": "对称音阶", "notes": ["1", "2", "b3", "4", "b5", "b6", "6", "7"] }
+  }
+}

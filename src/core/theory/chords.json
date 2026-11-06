@@ -1,0 +1,39 @@
+{
+  "major":  { "name": "大三和弦",   "symbol": "",       "group": "三和弦", "intervals": [0, 4, 7], "coreIntervals": [0, 4] },
+  "minor":  { "name": "小三和弦",   "symbol": "m",      "group": "三和弦", "intervals": [0, 3, 7], "coreIntervals": [0, 3] },
+  "dim":    { "name": "减三和弦",   "symbol": "dim",    "group": "三和弦", "intervals": [0, 3, 6], "coreIntervals": [0, 3] },
+  "aug":    { "name": "增三和弦",   "symbol": "aug",    "group": "三和弦", "intervals": [0, 4, 8], "coreIntervals": [0, 4] },
+  "sus2":   { "name": "挂二和弦",   "symbol": "sus2",   "group": "三和弦", "intervals": [0, 2, 7], "coreIntervals": [0, 2] },
+  "sus4":   { "name": "挂四和弦",   "symbol": "sus4",   "group": "三和弦", "intervals": [0, 5, 7], "coreIntervals": [0, 5] },
+
+  "maj7":   { "name": "大七和弦",   "symbol": "maj7",   "group": "七和弦", "intervals": [0, 4, 7, 11], "coreIntervals": [0, 4, 11] },
+  "m7":     { "name": "小七和弦",   "symbol": "m7",     "group": "七和弦", "intervals": [0, 3, 7, 10], "coreIntervals": [0, 3, 10] },
+  "7":      { "name": "属七和弦",   "symbol": "7",      "group": "七和弦", "intervals": [0, 4, 7, 10], "coreIntervals": [0, 4, 10] },
+  "m7b5":   { "name": "半减七和弦", "symbol": "m7♭5",   "group": "七和弦", "intervals": [0, 3, 6, 10], "coreIntervals": [0, 3, 10] },
+  "dim7":   { "name": "减七和弦",   "symbol": "dim7",   "group": "七和弦", "intervals": [0, 3, 6, 9], "coreIntervals": [0, 3, 6] },
+  "mMaj7":  { "name": "小大七和弦", "symbol": "mMaj7",  "group": "七和弦", "intervals": [0, 3, 7, 11], "coreIntervals": [0, 3, 11] },
+  "aug7":   { "name": "增七和弦",   "symbol": "aug7",   "group": "七和弦", "intervals": [0, 4, 8, 10], "coreIntervals": [0, 4, 10] },
+
+  "6":      { "name": "大六和弦",   "symbol": "6",      "group": "六和弦", "intervals": [0, 4, 7, 9], "coreIntervals": [0, 4, 9] },
+  "m6":     { "name": "小六和弦",   "symbol": "m6",     "group": "六和弦", "intervals": [0, 3, 7, 9], "coreIntervals": [0, 3, 9] },
+
+  "add9":   { "name": "加九和弦",   "symbol": "add9",   "group": "扩展和弦", "intervals": [0, 4, 7, 14], "coreIntervals": [0, 4, 14] },
+  "9":      { "name": "属九和弦",   "symbol": "9",      "group": "扩展和弦", "intervals": [0, 4, 7, 10, 14], "coreIntervals": [0, 4, 10, 14] },
+  "maj9":   { "name": "大九和弦",   "symbol": "maj9",   "group": "扩展和弦", "intervals": [0, 4, 7, 11, 14], "coreIntervals": [0, 4, 11, 14] },
+  "m9":     { "name": "小九和弦",   "symbol": "m9",     "group": "扩展和弦", "intervals": [0, 3, 7, 10, 14], "coreIntervals": [0, 3, 10, 14] },
+  "11":     { "name": "属十一",     "symbol": "11",     "group": "扩展和弦", "intervals": [0, 4, 7, 10, 14, 17], "coreIntervals": [0, 4, 10, 14, 17] },
+  "maj11":  { "name": "大十一",     "symbol": "maj11",  "group": "扩展和弦", "intervals": [0, 4, 7, 11, 14, 17], "coreIntervals": [0, 4, 11, 14, 17] },
+  "m11":    { "name": "小十一",     "symbol": "m11",    "group": "扩展和弦", "intervals": [0, 3, 7, 10, 14, 17], "coreIntervals": [0, 3, 10, 14, 17] },
+  "13":     { "name": "属十三",     "symbol": "13",     "group": "扩展和弦", "intervals": [0, 4, 7, 10, 14, 21], "coreIntervals": [0, 4, 10, 14, 21] },
+  "maj13":  { "name": "大十三",     "symbol": "maj13",  "group": "扩展和弦", "intervals": [0, 4, 7, 11, 14, 21], "coreIntervals": [0, 4, 11, 14, 21] },
+  "m13":    { "name": "小十三",     "symbol": "m13",    "group": "扩展和弦", "intervals": [0, 3, 7, 10, 14, 17, 21], "coreIntervals": [0, 3, 10, 14, 21] },
+
+  "7b9":    { "name": "属七降九",   "symbol": "7♭9",    "group": "变化扩展", "intervals": [0, 4, 7, 10, 13], "coreIntervals": [0, 4, 10, 13] },
+  "7s9":    { "name": "属七升九",   "symbol": "7♯9",    "group": "变化扩展", "intervals": [0, 4, 7, 10, 15], "coreIntervals": [0, 4, 10, 15] },
+  "7s11":   { "name": "属七升十一", "symbol": "7♯11",   "group": "变化扩展", "intervals": [0, 4, 7, 10, 18], "coreIntervals": [0, 4, 10, 18] },
+  "7b13":   { "name": "属七降十三", "symbol": "7♭13",   "group": "变化扩展", "intervals": [0, 4, 7, 10, 20], "coreIntervals": [0, 4, 10, 20] },
+  "13s11":  { "name": "十三升十一", "symbol": "13♯11",  "group": "变化扩展", "intervals": [0, 4, 7, 10, 18, 21], "coreIntervals": [0, 4, 10, 18, 21] },
+
+  "maj15":  { "name": "大十五",     "symbol": "maj15",  "group": "双八度扩展", "intervals": [0, 4, 7, 24], "coreIntervals": [0, 4, 24] },
+  "15":     { "name": "属十五",     "symbol": "15",     "group": "双八度扩展", "intervals": [0, 4, 7, 10, 24], "coreIntervals": [0, 4, 10, 24] }
+}
